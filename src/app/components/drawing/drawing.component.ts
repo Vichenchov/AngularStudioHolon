@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Student } from 'src/app/models/student.model';
+
 
 @Component({
   selector: 'app-drawing',
@@ -6,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./drawing.component.css']
 })
 export class DrawingComponent implements OnInit {
+  @Input() students: Student[] = [];
 
   constructor() { }
 

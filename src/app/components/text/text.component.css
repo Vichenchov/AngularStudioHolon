@@ -1,0 +1,40 @@
+div{
+    display: inline-block;
+    text-align: center;
+    margin: 3rem 3rem 1rem;
+}
+
+button{
+    margin: 2rem 2rem 0;
+    width: 9rem;
+    height: 2rem;
+    font-size: small;
+}
+
+/* responsive design */
+
+@media (max-width: 777px) {
+
+}
+
+@media (min-width: 777px) and (max-width: 900px) {
+    p{
+        font-size: 10px;
+    }
+
+    button{
+        margin: 2rem 1rem 0;
+        width: 9rem;
+        height: 2rem;
+        font-size: small;
+    }
+  }
+  
+  @media (min-width: 900px) and (max-width: 1024px) {
+    p{
+        font-size: 12px;
+    }
+  }
+
+
+/* @media (min-width: 1025px) and (max-width: 1200px) {} */

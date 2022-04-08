@@ -1,1 +1,6 @@
-<p>drawing works!</p>
+<div class="main-div">
+    <div class="content" id="hoverImg" *ngFor="let img of students">
+        <img src="{{ img.url }}" alt="img">
+        <h3>{{img.name}}, {{img.age}}</h3>
+    </div>
+</div>

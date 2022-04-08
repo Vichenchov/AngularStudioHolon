@@ -1,0 +1,22 @@
+.firsr-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 2.5rem;
+}
+
+.second-section{
+    text-align: center;
+    background-color: #49d8f1;
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+@media (max-width: 777px) {
+    .firsr-section{
+        justify-content: center;
+    }
+}

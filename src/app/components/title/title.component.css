@@ -10,7 +10,7 @@
   position: relative;
   display: block;
   width: calc(160% + 1.3px);
-  height: 104px;
+  height: 95px;
 }
 
 .custom-shape-divider-top-1626901056 .shape-fill {
@@ -19,9 +19,9 @@
 
 .brand {
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   right: 8rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: black;
 }
 
