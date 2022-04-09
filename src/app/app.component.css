@@ -5,14 +5,18 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    margin-top: 2.5rem;
+    margin: 1rem 0 4rem;
 }
 
 .second-section{
     text-align: center;
-    background-color: #49d8f1;
-    margin-top: 4rem;
-    padding-top: 4rem;
+    background-color: #7DE4FD;
+    padding: 3rem 0 3rem;
+}
+
+.thired-section{
+    background-color: #FAF9F9;
+    height: 15rem;
 }
 
 @media (max-width: 777px) {

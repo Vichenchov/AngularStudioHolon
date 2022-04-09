@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { TitleComponent } from './components/title/title.component';
 import { DrawingComponent } from './components/drawing/drawing.component';
 import { TextComponent } from './components/text/text.component';
-import { BottomComponent } from './components/bottom/bottom.component';
 
 //Angular Material Components
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -42,6 +41,7 @@ import {MatPaginatorModule} from '@angular/material/paginator';
 //ngx-bootstrap
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { MomsDrawingsComponent } from './components/moms-drawings/moms-drawings.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -49,8 +49,8 @@ import { MomsDrawingsComponent } from './components/moms-drawings/moms-drawings.
     TitleComponent,
     DrawingComponent,
     TextComponent,
-    BottomComponent,
-    MomsDrawingsComponent
+    MomsDrawingsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

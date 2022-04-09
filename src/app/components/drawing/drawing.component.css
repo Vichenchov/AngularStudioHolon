@@ -10,8 +10,9 @@
     position: relative;
     width: 15rem;
     height: 10rem;
-    color: black;
+    color: white;
     margin: 1rem;
+
 }
 
 img{
@@ -20,13 +21,12 @@ img{
     object-fit: cover;
 }
 
-div, img{
-    border-radius: 1rem;
+content, img{
     box-shadow: 0 10px 6px -6px #777;
 }
 
-div:hover{
-    /* color: black; */
+div.content:hover{
+    color: black;
     box-shadow: 5px 10px 15px -4px #777;
 }
 
@@ -34,7 +34,9 @@ h3{
     position: absolute;
     right: 1rem;
     bottom: 0;
-    margin-bottom: 0.5rem;
+    font-size: 14px;
+    padding: 3px;
 }
+
 
 

@@ -4,11 +4,31 @@ div{
     margin: 3rem 3rem 1rem;
 }
 
-button{
-    margin: 2rem 2rem 0;
+h1{
+    padding-bottom: 1rem;
+}
+
+a{
+    margin: 2rem 1rem 0;
     width: 9rem;
     height: 2rem;
     font-size: small;
+}
+
+p{
+    font-size: 0.9rem;
+}
+
+p,h1{
+    text-align: right;
+}
+
+.btn{
+    background-color: #7DE4FD;
+}
+
+.btn:hover{
+    background-color: #D1F5FF;
 }
 
 /* responsive design */
@@ -22,11 +42,15 @@ button{
         font-size: 10px;
     }
 
-    button{
+    a{
         margin: 2rem 1rem 0;
-        width: 9rem;
-        height: 2rem;
+        width: 7rem;
+        height: 1.8rem;
         font-size: small;
+    }
+
+    div{
+        margin-bottom: 4rem;
     }
   }
   
